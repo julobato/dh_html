@@ -1,11 +1,21 @@
 body{
     margin: 0%;
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 }
 
-#borda{
+header{
+    font-size: 15px;
     border: thin rgb(211, 211, 211) solid;
+}
+
+.form input{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form2{
+    padding: 10px;
 }
 
 
@@ -17,14 +27,10 @@ body{
     height: 60%;
 }
 
-.janedoe{
-    padding-top: 15px;
-    font-size: 25px;
-}
-
 
 footer{
-    margin: 0%;
+    margin-top: 60px;
+    padding: 10px;
     background-color: rgb(240, 240, 240);
 }
 
@@ -34,27 +40,27 @@ p{
     text-align: justify;
 }
 
-a{
+header a{
     text-decoration: none;
     text-decoration-color: none;
+    color: gray;
 }
-
-li{
-    font-size: 20px;
-}
-
 
 textarea{
     resize: none;
 }
 
 
-.margem{
+main{
     padding-left: 15%;
     padding-right: 15%;
 }
 
-#box{
+.margem-form{
+    padding-top: 5px;
+}
+
+.box{
     overflow: hidden;
 }
 
@@ -80,23 +86,10 @@ textarea{
     display: inline;
 }
 
-#margem-bottom{
-    padding-bottom: 60px;
-}
-
-
-.cinza{
-    color: gray;
-}
 
 .vermelho{
     font-weight: bolder;
     color: rgb(212, 24, 24);
-}
-
-.fontep{
-    font-weight: normal;
-    font-size: 18px;
 }
 
 .amarelo{
